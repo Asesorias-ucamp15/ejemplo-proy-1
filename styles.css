@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+/*? al usar "*" dentro de nuestro codigo css le estamos indicando que seleccione todos los elementos del html */
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-image{
+  /*? width significa ancho y rem es una medida basada en el tamaño de letra */
+  /*! tarea moral investigar medidas de css */
+  width: 25rem;
+}
+
+.products{
+  /** background-color nos permite seleccionar un color de fondo */
+  background-color: #050a42;
+  /** padding es un espacio del borde hacia dentro de la "caja" */
+  padding: 1rem 2rem;
+  /** margin es un espacio del borde hacia fuera de la "caja" */
+  margin: 2rem 2rem;
+}
+
+.product{
+  /*? color nos permite cambiar el color de letra */
+  color: #FFF;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  background-color: steelblue;
+  color: #FFF;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-item{
+  width: 500px;
+}
